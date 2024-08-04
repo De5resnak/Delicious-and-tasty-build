@@ -1,0 +1,63 @@
+/* App.css */
+
+/* Основные стили */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+/* Стили для темной темы */
+.dark-theme {
+  background-color: #5E5E5E;
+  color: white;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для компонентов */
+.recipe-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+
+.dark-theme .recipe-card {
+  background-color: #444;
+  color: white;
+  border-color: #555;
+}
+
+.dark-theme body {
+  background-color: #5E5E5E;
+  color: white;
+}
